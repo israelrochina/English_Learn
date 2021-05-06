@@ -1,0 +1,39 @@
+:root {
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+body {
+  margin: 10px;
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__text{
+    background-color:rgb(19, 15, 238,0.7);
+    width:50%;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow:10px 10px 20px 1px rgb(19, 15, 238,0.9);
+    border: 1px solid white;
+}
+
+.card__word{
+   color: rgb(255, 255, 255); 
+}
+.card__mean{
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+
+@media(max-width:500px){
+    .card__word, .card__mean{
+        font-size:16px;
+    }
+}
